@@ -1,0 +1,69 @@
+# =========================================
+# Python cache / compiled files
+# =========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# =========================================
+# Virtual environments
+# =========================================
+.venv/
+venv/
+env/
+ENV/
+*.env
+*.venv
+
+# =========================================
+# Jupyter / IPython
+# =========================================
+.ipynb_checkpoints/
+.profile
+.python_history
+
+# =========================================
+# VS Code / IDE
+# =========================================
+.vscode/
+.idea/
+*.code-workspace
+
+# =========================================
+# Logs & debug
+# =========================================
+logs/
+*.log
+*.tmp
+
+# =========================================
+# Data & artifacts
+# =========================================
+# Ignore all heavy raw data by default
+data/**
+!data/README.md
+
+# But allow these small competition files if you want to keep them tracked:
+!data/train.csv
+!data/test.csv
+!data/sample_submission.csv
+
+# Ignore generated submissions
+*_submission.csv
+submission*.csv
+
+# =========================================
+# Models / checkpoints
+# =========================================
+models/
+*.pt
+*.pth
+
+# =========================================
+# OS files
+# =========================================
+.DS_Store
+Thumbs.db
